@@ -1,0 +1,21 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Data (downloaded at runtime via kagglehub; don't commit large/raw data)
+*.csv
+*.xlsx
+data/
+
+# Secrets
+.env
+kaggle.json
